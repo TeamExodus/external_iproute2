@@ -32,8 +32,7 @@ LOCAL_CFLAGS := -O2 -g -W -Wall \
 	-DHAVE_TYPE_SSIZE_T \
 	-Wno-pointer-arith \
 	-Wno-sign-compare \
-	-Wno-unused-parameter \
-	-Werror
+	-Wno-unused-parameter
 
 # This is a work around for b/18403920
 LOCAL_LDFLAGS := -Wl,--no-gc-sections

@@ -27,7 +27,6 @@ LOCAL_CFLAGS := \
     -Wno-missing-field-initializers \
     -Wno-pointer-arith \
     -Wno-sign-compare \
-    -Werror \
     -D_GNU_SOURCE \
     -DHAVE_SETNS \
 
